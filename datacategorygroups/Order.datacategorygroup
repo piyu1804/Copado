@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Unlimited Data Plan</label>
+                <name>Unlimited_Data_Plan</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Limited data Plan</label>
+                <name>Limited_data_Plan</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Order Related</label>
+                <name>Order_Related</name>
+            </dataCategory>
+            <label>New Orders</label>
+            <name>New_Orders</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Plan Change</label>
+                <name>Plan_Change</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cancel Plan</label>
+                <name>Cancel_Plan</name>
+            </dataCategory>
+            <label>Existing Orders</label>
+            <name>Existing_Orders</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>This Data category is related to order related issues.</description>
+    <label>Order</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

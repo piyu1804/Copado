@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoGreeting>Hello.. How can I help today?</autoGreeting>
+    <customAgentName>Test Agent</customAgentName>
+    <enableAgentFileTransfer>true</enableAgentFileTransfer>
+    <enableAgentSneakPeek>false</enableAgentSneakPeek>
+    <enableAssistanceFlag>true</enableAssistanceFlag>
+    <enableAutoAwayOnDecline>true</enableAutoAwayOnDecline>
+    <enableAutoAwayOnPushTimeout>true</enableAutoAwayOnPushTimeout>
+    <enableChatConferencing>true</enableChatConferencing>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransferToAgent>true</enableChatTransferToAgent>
+    <enableChatTransferToButton>true</enableChatTransferToButton>
+    <enableChatTransferToSkill>true</enableChatTransferToSkill>
+    <enableLogoutSound>true</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableVisitorBlocking>true</enableVisitorBlocking>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>Test Configuration</label>
+    <supervisorDefaultAgentStatusFilter>Online</supervisorDefaultAgentStatusFilter>
+    <supervisorDefaultButtonFilter>Chat_Agents_Test</supervisorDefaultButtonFilter>
+    <supervisorDefaultSkillFilter>Test_Skill</supervisorDefaultSkillFilter>
+    <supervisorSkills>
+        <skill>Test_Skill</skill>
+        <skill>Web_Support</skill>
+    </supervisorSkills>
+    <transferableButtons>
+        <button>Chat_Agents_Test</button>
+        <button>Web_Support_Chat</button>
+    </transferableButtons>
+    <transferableSkills>
+        <skill>Test_Skill</skill>
+        <skill>Web_Support</skill>
+    </transferableSkills>
+</LiveChatAgentConfig>

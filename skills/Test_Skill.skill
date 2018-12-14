@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>admin</profile>
+            <profile>standard</profile>
+            <profile>testuser</profile>
+        </profiles>
+        <users>
+            <user>abhi.kalia@cpwplc.com</user>
+            <user>aleena.naeem@cpwplc.com</user>
+            <user>piyush.a.mathur@cpwplc.com</user>
+        </users>
+    </assignments>
+    <label>Test Skill</label>
+</Skill>
