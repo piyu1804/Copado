@@ -1,0 +1,12 @@
+List<Account> accs = new List<Account>();
+List<Opportunity> opps = new List<Opportunity>();
+for (Integer i=0;i<800;i++) {
+    Account a = new Account(Name='Account ' + i);
+    accs.add(a);
+}
+insert accs;
+for (Account a : accs) {
+    Opportunity o = new Opportunity(Name='Opportunity '+ a.Name,AccountId=a.Id,StageName='Prospecting',CloseDate=Date.today().addDays(30));
+	opps.add(o);
+}
+insert opps;
