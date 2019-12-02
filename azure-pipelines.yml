@@ -17,3 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: Ant@1
+  inputs:
+    buildFile: 'Ant deploy/build.xml'
+    options: '-Dsf.dest.username=$(sf.dest.username) -Dsf.dest.password=$(sf.dest.password) -Dsf.dest.serverUrl=$(sf.dest.serverUrl) -Dsf.source.version=$(sf.source.version) -Dsf.dest.version=$(sf.dest.version) -Dsf.maxPoll=$(sf.maxPoll) -Dsf.checkOnly=$(sf.checkOnly) -Dsf.testLevel=$(sf.testLevel)'
+    publishJUnitResults: true
+    testResultsFiles: '**/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
